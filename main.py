@@ -39,7 +39,7 @@ def main():
            sys.exit("Game over!")
         for sho in shoot:
              if sho.collisioncheck(ast):
-                ast.kill()
+                ast.split()
                 sho.kill()
       for dr in drawable:
          dr.draw(screen)
